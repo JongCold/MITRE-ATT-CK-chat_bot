@@ -4,12 +4,13 @@
 // =====================================================
 
 const CONFIG = {
-    // Cloudflare Tunnel 실행 후 발급된 주소로 교체하세요.
-    // 예: 'https://abc-def-ghi.trycloudflare.com'
-    WEBHOOK_URL: 'https://delhi-louis-remedy-songs.trycloudflare.com',
-    WEBHOOK_PATH: '/webhook/consult-security',
-
-    // n8n 웹훅에 설정한 Basic Auth 인증 정보
-    AUTH_USER: 'admin',
-    AUTH_PASS: 'password',
+    // 1. 최신 Cloudflare 주소 딱 1개만 입력
+    WEBHOOK_URL: "https://sticky-coast-driver-feeling.trycloudflare.com",
+    
+    // 2. n8n Webhook 경로 유지
+    WEBHOOK_PATH: "/webhook-test/consult-security",
+    
+    // 3. n8n Authentication을 'None'으로 설정했다면 빈 값 유지
+    AUTH_USER: "", 
+    AUTH_PASS: ""
 };
