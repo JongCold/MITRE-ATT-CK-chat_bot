@@ -8,7 +8,8 @@ const CONFIG = {
     WEBHOOK_URL: "https://sticky-coast-driver-feeling.trycloudflare.com",
     
     // 2. n8n Webhook 경로 유지
-    WEBHOOK_PATH: "/webhook-test/consult-security",
+    WEBHOOK_PATH: "/webhook/consult-security",
+    
     
     // 3. n8n Authentication을 'None'으로 설정했다면 빈 값 유지
     AUTH_USER: "", 
